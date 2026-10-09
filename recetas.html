@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recetas y guías de matcha · ZENQA LIFE</title>
+<meta name="description" content="Todas las recetas y guías Zenqa: iced matcha oat latte, strawberry cloud, sparkling yuzu tonic, usucha tradicional, cold brew, affogato y las guías de temperatura, chasen, conservación y dosis.">
+<meta name="theme-color" content="#ff6ebc">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/zenqa.css">
+</head>
+<body data-page="recetas">
+<main id="MainContent">
+
+  <header class="phead">
+    <div class="wrap phead__in">
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Home</a> <span>/</span> <a href="prepararlo.html">Cómo prepararlo</a> <span>/</span> <span aria-current="page">Recetas y guías</span></nav>
+      <h1 class="display">Recetas y <span class="hl">guías</span></h1>
+      <p class="lede">Todo lo que hemos aprendido batiendo matcha a las siete de la mañana, en formato corto y con cantidades reales. Pulsa una para leerla completa aquí mismo.</p>
+      <div class="row">
+        <span class="tag tag--forest">8 recetas</span><span class="tag tag--sage">5 guías</span><span class="tag">Actualizado en octubre</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="pill-nav" id="recipeFilters">
+    <div class="wrap row row--between">
+      <div class="tabs" id="recipeTabs">
+        <button class="chip" data-t="all" aria-pressed="true">Todas <span class="count">13</span></button>
+        <button class="chip" data-t="receta" aria-pressed="false">Recetas <span class="count">8</span></button>
+        <button class="chip" data-t="guia" aria-pressed="false">Guías <span class="count">5</span></button>
+      </div>
+      <a class="btn btn--sm btn--ghost" href="prepararlo.html">Volver a cómo prepararlo</a>
+    </div>
+  </div>
+
+  <section class="sec">
+    <div class="wrap">
+      <div id="recipeDetail" hidden></div>
+      <div id="recipeListWrap">
+        <div class="rcards" id="recipeList" style="grid-template-columns:repeat(3,1fr)"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- lead magnet: la guía en PDF, el gran paquete -->
+  <section class="sec sec--tight sec--mint" id="lead">
+    <div class="wrap">
+      <div class="lead rv">
+        <div class="col">
+          <span class="eyebrow">Todo esto, en un PDF</span>
+          <h2 class="display d-md">La <i>guía Zenqa</i> completa, gratis</h2>
+          <p class="lede">Las 12 recetas y guías de esta página, además de la tabla de dosis y la hoja de cata, en un PDF de 12 páginas para tener en la nevera. Incluye <strong>10 %</strong> en tu primer pedido.</p>
+          <div class="row">
+            <a class="btn btn--pink" href="#lead" data-act="lead-open">Descargar guía gratis</a>
+            <span class="count-lbl">Sin spam, te borras en un clic</span>
+          </div>
+        </div>
+        <div class="mock"><span>PDF · 12 pág.</span><b>Guía Matcha<br>Zenqa Life</b><span>Recetas · dosis · cata</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--tight sec--cream">
+    <div class="wrap">
+      <header class="sec-head">
+        <div class="col rv"><span class="eyebrow eyebrow--sage">Para practicar</span><h2 class="display d-md">Las herramientas que usamos en cada receta</h2></div>
+        <a class="btn btn--ghost" href="tienda.html">Ver la tienda <span class="arw">→</span></a>
+      </header>
+      <div class="mini-products" id="recipeRelated"></div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

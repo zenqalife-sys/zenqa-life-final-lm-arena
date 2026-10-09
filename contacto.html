@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto · ZENQA LIFE</title>
+<meta name="description" content="Escríbenos a Zenqa Life: dudas de preparación, pedidos, envíos, devoluciones, mayoreo y colaboraciones. Respondemos en 24 h laborables.">
+<meta name="theme-color" content="#ff6ebc">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/zenqa.css">
+</head>
+<body data-page="contacto">
+<main id="MainContent">
+
+  <header class="phead">
+    <div class="wrap phead__in">
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Home</a> <span>/</span> <a href="nosotros.html">Nosotros</a> <span>/</span> <span aria-current="page">Contacto</span></nav>
+      <h1 class="display">Hablemos de<br><span class="hl">matcha</span></h1>
+      <p class="lede">Dudas de preparación, un pedido parado, una duda sobre alergias o una cafetería que quiere servirnos. Contesta una persona, en menos de 24 horas laborables.</p>
+      <div class="row">
+        <span class="tag tag--forest">Respuesta &lt; 24 h</span><span class="tag tag--sage">Sin teléfonos de espera</span><span class="tag">Español y English</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="sec">
+    <div class="wrap split" style="align-items:start;grid-template-columns:1.15fr .85fr">
+      <!-- formulario -->
+      <div class="rv">
+        <h2 class="display d-md" style="margin-bottom:16px">Escríbenos</h2>
+        <form data-contact novalidate style="display:grid;gap:16px;border:var(--edge);border-radius:var(--r-lg);background:var(--paper);padding:clamp(20px,3vw,30px);box-shadow:var(--shadow-sm)">
+          <div class="form-row">
+            <div class="field"><label for="cname">Nombre y apellidos *</label><input id="cname" name="name" required autocomplete="name" placeholder="Aitana Ferrer"></div>
+            <div class="field"><label for="cmail">Email *</label><input id="cmail" name="email" type="email" required autocomplete="email" placeholder="hola@correo.com"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="cphone">Teléfono (opcional)</label><input id="cphone" name="phone" type="tel" autocomplete="tel" placeholder="+34 600 000 000"></div>
+            <div class="field"><label for="corder">Nº de pedido (si lo tienes)</label><input id="corder" name="order" placeholder="ZEN-000000"></div>
+          </div>
+          <div class="field"><label for="ctopic">¿Sobre qué escribes? *</label>
+            <select id="ctopic" name="topic" required>
+              <option value="">Elige una opción</option>
+              <option>Duda sobre mi pedido</option>
+              <option>Cambios o devolución</option>
+              <option>Cómo preparar el matcha</option>
+              <option>Grado, alergias o ingredientes</option>
+              <option>Mayorista o cafeterías</option>
+              <option>Prensa y colaboraciones</option>
+              <option>Otra cosa</option>
+            </select>
+          </div>
+          <div class="field"><label for="cmsg">Mensaje *</label><textarea id="cmsg" name="msg" required placeholder="Cuéntanos qué te pasa y lo resolvemos."></textarea></div>
+          <label class="check"><input type="checkbox" name="priv" required><span>He leído y acepto la <a href="legal.html#privacidad" class="underline-sketch">política de privacidad</a>. Solo usaremos tus datos para responderte.</span></label>
+          <p class="err" data-err hidden>Revisa los campos obligatorios: nombre, email válido, motivo, mensaje y consentimiento.</p>
+          <div class="row" style="gap:12px">
+            <button class="btn btn--pink btn--lg" type="submit">Enviar mensaje</button>
+            <span class="count-lbl">Tardamos 2 minutos en leerlo</span>
+          </div>
+        </form>
+
+        <div class="form-ok" data-contact-ok hidden style="margin-top:18px">
+          <strong class="display d-sm">¡Recibido, <span data-who></span>!</strong>
+          <p>Tu consulta ya está en la bandeja del equipo. Te contestamos a la dirección que nos has dejado en menos de 24 h laborables (si escribes un viernes por la tarde, será el lunes). Nº de ticket: <strong>ZEN-<span data-ticket>4821</span></strong>.</p>
+          <div class="row"><a class="btn btn--sm" href="recetas.html">Mientras tanto, mira las recetas</a><a class="btn btn--sm btn--ghost" href="tienda.html">Seguir comprando</a></div>
+        </div>
+      </div>
+
+      <!-- canales -->
+      <aside class="col rv rv-d1">
+        <div class="banner-x" style="flex-direction:column;align-items:flex-start">
+          <h3>Otros canales</h3>
+          <ul class="col" style="gap:10px;font-size:.94rem">
+            <li><strong>Email</strong> · <a class="underline-sketch" href="mailto:hola@zenqalife.com">hola@zenqalife.com</a></li>
+            <li><strong>Teléfono / WhatsApp</strong> · <a class="underline-sketch" href="tel:+34611002233">+34 611 00 22 33</a></li>
+            <li><strong>Mayorista</strong> · <a class="underline-sketch" href="mailto:hosts@zenqalife.com">hosts@zenqalife.com</a></li>
+            <li><strong>Prensa</strong> · <a class="underline-sketch" href="mailto:prensa@zenqalife.com">prensa@zenqalife.com</a></li>
+          </ul>
+        </div>
+        <div class="quote">
+          <h3 class="display d-sm">Dónde estamos</h3>
+          <p>Almacén y oficina: Av. de la Paz 21, nave 4 · 28931 Arroyomolinos (Madrid).<br>Recogida en tienda: jueves y viernes de 17 a 20 h, avisando antes.</p>
+          <footer><span class="avatar">Z</span><span>L-V 9:00-18:00 CET · pedidos salen a las 14:00</span></footer>
+        </div>
+        <div class="quote" style="background:var(--pink)">
+          <h3 class="display d-sm">Etiquétanos</h3>
+          <p>Sube tu preparación con <strong>#ZenqaMoment</strong> y <strong>@zenqalife</strong>. Cada mes elegimos tres y las mandamos a imprimir en la tote bag del mes siguiente.</p>
+          <a class="btn btn--sm" href="https://www.instagram.com/" target="_blank" rel="noopener">Ver en Instagram</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec sec--mint" id="ayuda">
+    <div class="wrap">
+      <header class="sec-head">
+        <div class="col rv"><span class="eyebrow">Antes de escribir</span><h2 class="display d-lg">Preguntas que nos hacéis<br><i>casi cada semana</i></h2></div>
+        <a class="btn btn--ghost" href="prepararlo.html">Guía de preparación</a>
+      </header>
+      <div id="faq" class="rv"></div>
+    </div>
+  </section>
+
+  <section class="sec sec--tight" id="lead">
+    <div class="wrap">
+      <div class="banner-x banner-x--pink rv">
+        <div><h3>¿Solo quieres recetas?</h3><p>Bájate la guía en PDF, no necesitamos que compres nada. E incluyamos un 10 % para cuando te entre el gusanillo.</p></div>
+        <a class="btn" href="#lead" data-act="lead-open">Descargar guía gratis</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+  // ticket aleatorio para que el estado de éxito parezca real
+  document.addEventListener("submit", function () {
+    var t = document.querySelector("[data-ticket]");
+    if (t) t.textContent = String(4000 + Math.floor(Math.random() * 900));
+  });
+  // marcar el consentimiento como requerido visible
+  document.querySelectorAll("[data-contact] input[required]").forEach(function (i) { i.setAttribute("aria-required", "true"); });
+</script>
+</body>
+</html>

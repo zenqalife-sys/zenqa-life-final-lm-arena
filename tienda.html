@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tienda de té matcha, kits y cristalería · ZENQA LIFE</title>
+<meta name="description" content="Compra té matcha de grado ceremonial y culinario, kits de preparación con chawan, chasen y tamizador, teteras y tazas de cristal, vasos térmicos y ropa Zenqa. Envío gratis desde 35 €.">
+<meta name="theme-color" content="#ff6ebc">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/zenqa.css">
+</head>
+<body data-page="tienda">
+<main id="MainContent">
+
+  <header class="phead">
+    <div class="wrap phead__in">
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Home</a> <span>/</span> <span aria-current="page">Tienda</span></nav>
+      <h1 class="display">Todo el <span class="hl">ritual</span><br>en un solo sitio</h1>
+      <p class="lede">Cuatro colecciones, una obsesión: que tu matcha salga verde, espumoso y sin excusas. Precio final sin sorpresas, envío gratis desde 35 € y 30 días para cambiar de opinión.</p>
+      <div class="row">
+        <span class="tag tag--forest">Envío 24-48 h</span>
+        <span class="tag tag--sage">Pago en 3 plazos</span>
+        <span class="tag">Cosecha de primavera</span>
+        <span class="tag tag--cream">30 días de garantía</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- filtros -->
+  <div class="shopbar">
+    <div class="wrap shopbar__in">
+      <div id="shopChips" class="row" style="gap:8px;flex-wrap:nowrap"></div>
+      <div class="shopbar__right">
+        <span class="count-lbl" data-total>16 productos</span>
+        <label class="hide" for="shopSort">Ordenar</label>
+        <select class="select" id="shopSort">
+          <option value="feat">Destacados</option>
+          <option value="asc">Precio: de menor a mayor</option>
+          <option value="desc">Precio: de mayor a menor</option>
+          <option value="rate">Mejor valorados</option>
+          <option value="new">Novedades</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- colecciones -->
+  <div id="shopSections"></div>
+
+  <!-- comparativa rápida de grados -->
+  <section class="sec sec--mint" id="que-grado">
+    <div class="wrap">
+      <header class="sec-head">
+        <div class="col rv">
+          <span class="eyebrow">Antes de comprar</span>
+          <h2 class="display d-lg">Ceremonial o culinario, <i>qué elegir</i></h2>
+        </div>
+      </header>
+      <div class="cmp-scroll rv">
+        <table class="cmp">
+          <caption class="hide">Comparativa entre matcha de grado ceremonial y de grado culinario</caption>
+          <thead><tr><th scope="col"> </th><th scope="col">Grado ceremonial</th><th scope="col">Grado culinario</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Para qué</th><td>Solo, usucha, latte suave</td><td>Latte con leche, smoothies, repostería</td></tr>
+            <tr><th scope="row">Sabor</th><td>Dulce, umami, vegetal</td><td>Intenso, con amargor noble</td></tr>
+            <tr><th scope="row">Color</th><td>Verde esmeralda vivo</td><td>Verde bosque profundo</td></tr>
+            <tr><th scope="row">Cosecha</th><td>Primera, hojas más tiernas</td><td>Segunda y tercera</td></tr>
+            <tr><th scope="row">Agua</th><td>70 °C</td><td>75-80 °C</td></tr>
+            <tr><th scope="row">Precio</th><td>29,95 € / 54 g</td><td>21,95 € / 30 g</td></tr>
+            <tr><th scope="row">Perdona errores</th><td>Menos: se nota todo</td><td>Mucho: es tu zona segura</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row" style="margin-top:20px">
+        <a class="btn btn--pink" href="#matcha">Ir al matcha</a>
+        <a class="btn btn--ghost" href="prepararlo.html#especificaciones">Ver especificaciones técnicas</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- lead magnet -->
+  <section class="sec sec--tight" id="lead">
+    <div class="wrap">
+      <div class="lead rv">
+        <div class="col">
+          <span class="eyebrow">¿Dudas con la preparación?</span>
+          <h2 class="display d-md">Llévate la <i>guía gratuita</i> antes de comprar</h2>
+          <p class="lede">Te enviamos el PDF de 12 páginas con las recetas, la tabla de dosis y un <strong>10 %</strong> de descuento para tu primer pedido. Si después de leerlo no te convence, no compras y no pasa nada.</p>
+          <a class="btn btn--pink" href="#lead" data-act="lead-open">Descargar guía + cupón</a>
+        </div>
+        <div class="mock"><span>PDF · 12 pág.</span><b>Guía Matcha<br>Zenqa Life</b><span>6 recetas · tabla de dosis</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- banda de confianza -->
+  <div class="band" id="band-trust" aria-hidden="true"></div>
+</main>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+  ZENQA.band("#band-trust", [
+    "Envío gratis desde 35 €", "Pago con Bizum, tarjeta o PayPal", "Devolución en 30 días",
+    "Atención humana en 24 h", "Molido en piedra en Uji"
+  ], "band--cream");
+</script>
+</body>
+</html>
